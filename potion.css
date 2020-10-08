@@ -13,25 +13,6 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-body {
-    margin: 0;
-}
-
-img {
-    display: block;
-    height: auto;
-}
-
-img,
-canvas,
-iframe,
-video,
-svg,
-select,
-textarea {
-    max-width: 100%;
-}
-
 button,
 input,
 textarea,
@@ -43,7 +24,12 @@ label {
     display: none;
 }
 
+::selection {
+    background: rgba(45, 170, 219, 0.3);
+}
+
 body {
+    margin: 0;
     padding-top: 108px;
     color: rgb(55, 53, 47);
     font-size: 16px;
@@ -57,28 +43,16 @@ body > :not(table):not(blockquote):not(img):not(pre) {
     max-width: 708px;
 }
 
-h1,
-h2,
-h3 {
-    margin: 0;
-}
-
 h1.title {
+    margin: 0 auto;
     font-weight: 700;
     line-height: 1.2;
     font-size: 40px;
     padding-bottom: 23px;
 }
 
-p {
-    word-break: break-word;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
 h1:not(.title) {
+    margin: 0 auto;
     font-weight: 600;
     font-size: 1.875em;
     line-height: 1.3;
@@ -87,6 +61,7 @@ h1:not(.title) {
 }
 
 h2 {
+    margin: 0 auto;
     font-weight: 600;
     font-size: 1.5em;
     line-height: 1.3;
@@ -95,6 +70,7 @@ h2 {
 }
 
 h3 {
+    margin: 0 auto;
     font-weight: 600;
     font-size: 1.25em;
     line-height: 1.3;
@@ -102,8 +78,18 @@ h3 {
     padding-bottom: 4px;
 }
 
-::selection {
-    background: rgba(45, 170, 219, 0.3);
+p {
+    word-break: break-word;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    max-width: 676px !important;
+
 }
 
 blockquote {
@@ -197,6 +183,14 @@ th:not(:last-child) {
     border-right: 1px solid rgba(55, 53, 47, 0.16);
 }
 
+td > [class^='b-'],
+th > [class^='b-'] {
+    line-height: 1.5;
+    border-radius: 3px;
+    padding: 0.1em 0.4em;
+    white-space: nowrap;
+}
+
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     line-height: normal;
@@ -231,9 +225,83 @@ a:hover {
 }
 
 img {
+    display: block;
     margin: 0.5em auto;
-    max-width: 100%;
     height: auto;
     padding-left: 16px;
     padding-right: 16px;
+    max-width: 100%;
 }
+
+.c-gray {
+    color: rgba(55, 53, 47, 0.6);
+}
+
+.b-gray {
+    background: rgb(235, 236, 237) none repeat scroll 0% 0%;
+}
+
+.c-brown {
+    color: rgb(100, 71, 58);
+}
+
+.b-brown {
+    background: rgb(233, 229, 227) none repeat scroll 0% 0%;
+}
+
+.c-orange {
+    color: rgb(217, 115, 13);
+}
+
+.b-orange {
+    background: rgb(250, 235, 221) none repeat scroll 0% 0%;
+}
+
+.c-yellow {
+    color: rgb(223, 171, 1);
+}
+
+.b-yellow {
+    background: rgb(251, 243, 219) none repeat scroll 0% 0%;
+}
+
+.c-green {
+    color: rgb(15, 123, 108);
+}
+
+.b-green {
+    background: rgb(221, 237, 234) none repeat scroll 0% 0%;
+}
+
+.c-blue {
+    color: rgb(11, 110, 153);
+}
+
+.b-blue {
+    background: rgb(221, 235, 241) none repeat scroll 0% 0%;
+}
+
+.c-purple {
+    color: rgb(105, 64, 165);
+}
+
+.b-purple {
+    background: rgb(234, 228, 242) none repeat scroll 0% 0%;
+}
+
+.c-pink {
+    color: rgb(173, 26, 114);
+}
+
+.b-pink {
+    background: rgb(244, 223, 235) none repeat scroll 0% 0%;
+}
+
+.c-red {
+    color: rgb(224, 62, 62);
+}
+
+.b-red {
+    background: rgb(251, 228, 228) none repeat scroll 0% 0%;
+}
+
