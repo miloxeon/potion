@@ -86,10 +86,9 @@ p {
     margin-block-end: 0;
     margin-top: 2px !important;
     margin-bottom: 2px !important;
-    padding-left: 2px !important;
-    padding-right: 2px !important;
-    max-width: 680px !important;
-
+    /* padding-left: 2px !important;
+    padding-right: 2px !important; */
+    /* max-width: 680px !important; */
 }
 
 blockquote {
