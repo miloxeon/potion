@@ -106,17 +106,13 @@ blockquote {
 }
 
 ol {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 5px;
     list-style-position: inside; 
+    padding-left: 22px !important;
 }
 
 ul {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 5px;
     list-style-position: inside;
+    padding-left: 25px !important;
 }
 
 li {
@@ -133,7 +129,9 @@ li::before {
 hr {
     border: none;
     padding: 2px 0;
+    padding-top: 7px;
     border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+    max-width: 676px !important;
 }
 
 .table-wrapper {
