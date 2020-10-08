@@ -50,7 +50,7 @@ body {
     padding-bottom: 30vh;
 }
 
-body > :not(table):not(blockquote):not(img) {
+body > :not(table):not(blockquote):not(img):not(pre) {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
@@ -205,6 +205,17 @@ code {
     border-radius: 3px;
     font-size: 85%;
     padding: 0.2em 0.4em;
+}
+
+pre {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    line-height: normal;
+    border-radius: 3px;
+    font-size: 85%;
+    padding: 30px 16px 30px 20px;
+    margin: 16px auto;
+    max-width: 676px;
+    background: rgb(247, 246, 243) none repeat scroll 0% 0%;
 }
 
 a {
