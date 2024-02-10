@@ -1,8 +1,6 @@
 # 🤓 Potion
 Make websites that look like famous note taking app. 
 
-[Demo](https://miloslav.website/potion)
-
 ## What it does?
 
 You just have your HTML file, you put one script into `<head>` and it instantly looks like it was made in that note-taking app. When testing this, I noted myself hitting Cmd + R on a real thing instead of my recreation, and this fact alone makes me think that my recreation looks pretty close.
