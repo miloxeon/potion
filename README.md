@@ -22,7 +22,7 @@ This is where Potion steps in.
 ## Usage
 
 ```HTML
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mvoloskov/potion/potion.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/miloxeon/potion/potion.min.css">
 ```
 
 Put this into `head` of a plain HTML file. Done.
