@@ -1,13 +1,13 @@
 # 🤓 Potion
 Make websites that look like famous note taking app. 
 
-## What it does?
+## What does it do?
 
-You just have your HTML file, you put one script into `<head>` and it instantly looks like it was made in that note-taking app. When testing this, I noted myself hitting Cmd + R on a real thing instead of my recreation, and this fact alone makes me think that my recreation looks pretty close.
+If you just have your HTML file and nothing else, you can put one line of code into `<head>`, and it will instantly look like it was made in that note-taking app.
 
 ## Why?
 
-I've seen [Fruition](https://fruitionsite.com) and really like it. I find that design really simple and attractive for things like demo pages, READMEs, documentation and other such things. However, the original thing loads extremely slowly and it's inaccessible because it was never designed to be used in such way.
+I've seen [Fruition](https://fruitionsite.com) and really like it. I find that design really simple and attractive for things like demo pages, READMEs, documentation and other such things. However, the original thing loads extremely slowly and it's inaccessible because it was never designed to be used in such a way.
 
 This is where Potion steps in.
 
@@ -15,7 +15,7 @@ This is where Potion steps in.
 
 - 👌 No need to go through all that complicated Cloudflare settings as with Fruition
 - ⚡️ It works much faster because it's just a single small CSS file
-- 😈 No trackers, no JavaScript
+- 😈 No trackers, no JavaScript 
 - 🪄 Accessible by default
 - 🌱 Works much better on narrower screens than the original
 
@@ -48,8 +48,6 @@ Put this into `head` of a plain HTML file. Done.
 The `<header>` on top of the `<body>` is special. It allows you to define page title, page icon and top image:
 
 ```HTML
-
-
 <body>
     <header>
         <!-- Top image (optional) -->
@@ -61,7 +59,6 @@ The `<header>` on top of the `<body>` is special. It allows you to define page t
         <!-- h1 here becomes the page title (also optional but you better have it) -->
         <h1>Potion</h1>
     </header>
-    
     ...
 </body> 
 ```
