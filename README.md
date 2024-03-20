@@ -1,5 +1,5 @@
 # 🤓 Potion
-Make websites that look like famous note taking app. 
+Make websites look like a certain popular note taking app that may or may not rhyme with the name of this repo.
 
 ## What does it do?
 
